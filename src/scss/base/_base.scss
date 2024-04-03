@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800);
+
+html {
+  scroll-behavior: smooth;
+  background-color: rgb(39, 39, 39);
+}
+
+body {
+  background-color: var(--page-bg);
+  color: var(--text-color);
+  font-family: var(--font-main);
+}
+
+img {
+  display: block;
+}
+
+a {
+  color: var(--link-color);
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.ta-l {
+  text-align: left;
+}
+
+.ta-r {
+  text-align: right;
+}
+
+.section-cards {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #d8d3cc;
+}
+
+// Reg
+
+.reg {
+  padding: 60px 0;
+
+  .title-2 {
+    @include text-stroke($color: transparent, $strokeColor: blue);
+    font-size: 5rem;
+  }
+}
+
+.btn_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.bg-gradient {
+  background: linear-gradient(208deg, #323264 0%, #323264 59.9%, #643e72 100%);
+}

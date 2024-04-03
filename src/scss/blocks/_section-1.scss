@@ -1,0 +1,35 @@
+.section-1 {
+  position: relative;
+
+  .big-logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .big-logo {
+      transition: width 0.2s ease-in;
+
+      @include laptopHdSize {
+        width: 54.5%;
+        max-width: 872px;
+      }
+
+      @include laptopSize {
+        width: 49.785%;
+      }
+
+      @include tabletHd {
+        width: 65.429%;
+      }
+    }
+  }
+  .title-1 {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    z-index: 1;
+    color: #fff;
+  }
+}

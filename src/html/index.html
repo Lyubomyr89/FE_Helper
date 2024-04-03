@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hillel Gulp Starter 2024</title>
+	<link rel="stylesheet" href="./css/styles.css">
+
+	<link rel="icon" type="image/x-icon" href="./img/favicons/favicon-16x16.png">
+	<link rel="icon" type="image/x-icon" sizes="32x32" href="./img/favicons/favicon-32x32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+</head>
+
+<body>
+	@@include('blocks/header.html')
+	<main>
+		<div class="bg-gradient">
+			@@include('blocks/section-1.html')
+			@@include('blocks/section-2.html')
+		</div>
+		@@include('blocks/text-gradient.html')
+		@@include('blocks/register.html')
+		@@include('blocks/cards.html')
+		@@include('blocks/containers.html')
+		@@include('blocks/modal.html')
+	</main>
+	@@include('blocks/footer.html')
+	<script src="./js/index.bundle.js"></script>
+</body>
+
+</html>

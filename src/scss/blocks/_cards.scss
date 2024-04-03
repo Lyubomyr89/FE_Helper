@@ -1,0 +1,27 @@
+.cards {
+  display: grid;
+  row-gap: 30px;
+
+  @include tablet {
+    column-gap: 60px;
+    grid-template-columns: repeat(auto-fit, minmax(calc(50% - 30px), auto));
+  }
+
+  @include tabletHd {
+    grid-template-columns: repeat(auto-fit, minmax(calc(33.33% - 40px), auto));
+  }
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-height: 200px;
+    background-color: teal;
+    border-radius: 20px;
+
+    @include mobileXsUp {
+      background-color: crimson;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+$laptop-hd-size: 1920px;
+$laptop-size: 1440px;
+$tablet-hd-size: 1024px;
+$tablet-lg-size: 992px;
+$tablet-size: 768px;
+$mobile-size: $tablet-size - 1px;
+$mobile-xs: 560px;
+
+:root {
+  // figma
+  --accent: #f0145a;
+  --main---regular: #323264;
+  --main---alt: #46466e;
+  --main---soft: #686887;
+  --active---regular: #24a3ff;
+  --active-hover: #0085ff;
+  --active-active: #006ccf;
+  --grey---bg-: #f5f5fa;
+  --grey---bg--alt: #ededf7;
+  --grey---text: #b3b3ba;
+  --grey---separator: #e6e6f0;
+  --basic-black: #000;
+  --basic-white: #fff;
+
+  // custom
+  --container-width: 1640px;
+  --container-padding: 20px;
+
+  --font-main: sans-serif;
+  --font-accent: "GraphikLCG", sans-serif;
+  --font-titles: var(--font-accent);
+
+  --page-bg: #fcf;
+  --text-color: #000;
+  --accent: #ac182c;
+  --link-color: #1a6bb9;
+
+  --laptop-hd-size: $laptop-hd-size;
+  --laptop-size: $laptop-size;
+  --tablet-size: $tablet-size;
+  --tablet-hd-size: $tablet-hd-size;
+  --mobile-size: $mobile-size;
+}
+
+.dark {
+  --page-bg: #252526;
+  --text-color: #fff;
+}

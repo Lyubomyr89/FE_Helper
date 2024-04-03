@@ -1,0 +1,14 @@
+/* Base */
+@import './base/reset';
+@import './base/vars';
+@import './base/mixins';
+@import './base/fontsAutoInclude';
+@import './base/base';
+@import './base/utils';
+@import './base/containers';
+@import './base/sticky-footer';
+
+/* Blocks */
+@import './blocks/*.scss';
+
+/* Не пишіть CSS код нижче. Тільки у підключених файлах */
